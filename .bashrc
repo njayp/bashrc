@@ -1,0 +1,48 @@
+#export TELEPRESENCE_REGISTRY=njpowell
+#export DEV_REGISTRY=njpowell
+
+alias v="code"
+alias vtp="code ~/repos/telepresence-pro"
+alias vta="code ~/repos/telepresence2-proprietary"
+alias vt="code ~/repos/telepresence-pro/.oss"
+alias vtd="code ~/repos/telepresence-docker-extension"
+alias vp="code ~/repos/parthenon"
+alias vaa="code ~/repos/ambassador-agent"
+alias vga="code ~/repos/getambassador.io"
+alias vbrc="code ~/.bashrc"
+alias vkc="code ~/.kube/config"
+alias vtc="code ~/AppData/Roaming/telepresence/config.yml"
+alias vh="code C:/Windows/System32/drivers/etc/hosts"
+alias va="code ~/repos/ajax"
+
+alias m="make"
+
+alias d="docker"
+alias dr="docker run"
+
+alias k="kubectl"
+alias ka="kubectl apply"
+alias kl="kubectl logs"
+alias kc="kubectl create"
+alias kaee="kubectl apply -f ~/repos/telepresence-pro/.oss/integration_test/testdata/k8s/echo-easy.yaml"
+alias kast="kubectl apply -f https://raw.githubusercontent.com/datawire/edgey-corp-nodejs/main/k8s-config/edgey-corp-web-app-no-mapping.yaml"
+alias kd="kubectl delete"
+alias kgp="kubectl get pod"
+alias kgs="kubectl get service"
+alias kgcm="kubectl get configmap"
+alias kgd="kubectl get deploy"
+alias kcc="kubectl config current-context"
+alias kcu="kubectl config use-context"
+
+alias g="git"
+alias gs="git stash"
+alias gsp="git stash pop"
+alias gp="git pull"
+alias gpf="git push -f"
+alias grh="git reset HEAD~"
+alias gf="git fetch"
+alias gc="git clone"
+alias gcp="git cherry-pick"
+
+alias gmv="go mod vendor"
+alias gmt="go mod tidy"
