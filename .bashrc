@@ -1,24 +1,15 @@
-#export TELEPRESENCE_REGISTRY=njpowell
-#export DEV_REGISTRY=njpowell
-
 alias v="code"
-alias vtp="code ~/repos/telepresence-pro"
-alias vta="code ~/repos/telepresence2-proprietary"
-alias vt="code ~/repos/telepresence-pro/.oss"
-alias vtd="code ~/repos/telepresence-docker-extension"
 alias vp="code ~/repos/parthenon"
-alias vaa="code ~/repos/ambassador-agent"
-alias vga="code ~/repos/getambassador.io"
 alias vbrc="code ~/.bashrc"
 alias vkc="code ~/.kube/config"
-alias vtc="code ~/AppData/Roaming/telepresence/config.yml"
-alias vh="code C:/Windows/System32/drivers/etc/hosts"
 alias va="code ~/repos/ajax"
 
 alias m="make"
 
 alias d="docker"
 alias dr="docker run"
+alias db="docker build"
+alias dils="docker image ls"
 
 alias k="kubectl"
 alias ka="kubectl apply"
