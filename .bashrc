@@ -1,8 +1,10 @@
 alias v="code"
 alias vp="code ~/repos/parthenon"
-alias vbrc="code ~/.bashrc"
+alias vbrc="code ~/repos/bashrc"
 alias vkc="code ~/.kube/config"
 alias va="code ~/repos/ajax"
+alias vt="code ~/repos/telepresence"
+alias vr="code ~/repos/replik"
 
 alias m="make"
 
