@@ -5,13 +5,17 @@ alias vkc="code ~/.kube/config"
 alias va="code ~/repos/ajax"
 alias vt="code ~/repos/telepresence"
 alias vr="code ~/repos/replik"
+alias vi="code ~/repos/icarus"
 
 alias m="make"
+alias b="brew"
+alias h="helm"
+alias cf="cloudflared"
 
 alias d="docker"
 alias dr="docker run"
 alias db="docker build"
-alias dils="docker image ls"
+alias di="docker image"
 
 alias k="kubectl"
 alias ka="kubectl apply"
