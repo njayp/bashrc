@@ -12,6 +12,9 @@ alias b="brew"
 alias h="helm"
 alias cf="cloudflared"
 
+alias o="oci"
+alias osa="oci session authenticate"
+
 alias d="docker"
 alias dr="docker run"
 alias db="docker build"
