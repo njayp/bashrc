@@ -47,6 +47,20 @@ alias grh="git reset HEAD~"
 alias gf="git fetch"
 alias gc="git clone"
 alias gcp="git cherry-pick"
+alias gt="git tag"
+alias gpo="git push origin"
 
 alias gmv="go mod vendor"
 alias gmt="go mod tidy"
+
+alias tfi="terraform init"
+alias tff="terraform fmt"
+alias tfv="terraform validate"
+alias tfp="terraform plan"
+alias tfa="terraform apply"
+alias tfs="terraform show"
+alias tfd="terraform destroy"
+
+# ssh-keygen \n\n
+# ssh-copy-id userid@hostname
+alias pi="ssh njayp@192.168.1.61"
