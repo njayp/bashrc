@@ -1,11 +1,6 @@
 alias v="code"
-alias vp="code ~/repos/parthenon"
-alias vbrc="code ~/repos/bashrc"
-alias vkc="code ~/.kube/config"
-alias va="code ~/repos/ajax"
-alias vt="code ~/repos/telepresence"
-alias vr="code ~/repos/replik"
-alias vi="code ~/repos/icarus"
+alias vbrc="code ~/.bashrc"
+alias vzrc="code ~/.zshrc"
 
 alias m="make"
 alias b="brew"
@@ -16,11 +11,13 @@ alias cf="cloudflared"
 alias o="oci"
 alias osa="oci session authenticate <<<62$'\n'njayp$'\n'"
 
+## docker
 alias d="docker"
 alias dr="docker run"
 alias db="docker build"
 alias di="docker image"
 
+## kubectl
 alias k="kubectl"
 alias kg="kubectl get"
 alias ka="kubectl apply"
@@ -38,6 +35,7 @@ alias kcu="kubectl config use-context"
 alias kpf="kubectl port-forward"
 alias krr="kubectl rollout restart"
 
+## git
 alias g="git"
 alias gs="git stash"
 alias gsp="git stash pop"
@@ -50,9 +48,7 @@ alias gcp="git cherry-pick"
 alias gt="git tag"
 alias gpo="git push origin"
 
-alias gmv="go mod vendor"
-alias gmt="go mod tidy"
-
+## terraform
 alias tfi="terraform init"
 alias tff="terraform fmt"
 alias tfv="terraform validate"
@@ -60,7 +56,3 @@ alias tfp="terraform plan"
 alias tfa="terraform apply"
 alias tfs="terraform show"
 alias tfd="terraform destroy"
-
-# ssh-keygen \n\n
-# ssh-copy-id userid@hostname
-alias pi="ssh njayp@192.168.1.61"
