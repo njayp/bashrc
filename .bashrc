@@ -4,12 +4,12 @@ alias vzrc="code ~/.zshrc"
 
 alias m="make"
 alias b="brew"
-alias bu="brew update && brew upgrade"
+alias bu="brew update && brew upgrade -y"
 alias h="helm"
 alias cf="cloudflared"
 
 alias o="oci"
-alias osa="oci session authenticate <<<62$'\n'njayp$'\n'"
+alias osa="oci session authenticate <<<82$'\n'njayp$'\n'"
 
 ## docker
 alias d="docker"
